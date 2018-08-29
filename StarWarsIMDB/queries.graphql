@@ -1,0 +1,23 @@
+query AllFilmTitles {
+    allFilms {
+        films {
+            id
+            title
+        }
+    }
+}
+
+query FilmDetail($filmID: ID!) {
+    film(filmID: $filmID) {
+        title
+        openingCrawl
+        characterConnection {
+            characters {
+                name
+                homeworld {
+                    name
+                }
+            }
+        }
+    }
+}

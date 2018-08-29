@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071B98185FFC7FFD6D78B936 /* Pods_StarWarsIMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1826524B26DD94732C3D3E4C /* Pods_StarWarsIMDB.framework */; };
+		A038AC97212081C600177CC4 /* FilmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A038AC96212081C600177CC4 /* FilmTableViewCell.swift */; };
+		A038AC992120A0C900177CC4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A038AC982120A0C900177CC4 /* API.swift */; };
 		A080AA57211754DB00156134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A080AA56211754DB00156134 /* AppDelegate.swift */; };
-		A080AA59211754DB00156134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A080AA58211754DB00156134 /* ViewController.swift */; };
+		A080AA59211754DB00156134 /* FilmListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A080AA58211754DB00156134 /* FilmListViewController.swift */; };
 		A080AA5C211754DB00156134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A080AA5A211754DB00156134 /* Main.storyboard */; };
 		A080AA5E211754DD00156134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A080AA5D211754DD00156134 /* Assets.xcassets */; };
 		A080AA61211754DD00156134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A080AA5F211754DD00156134 /* LaunchScreen.storyboard */; };
+		A080AA6A2117586900156134 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = A080AA692117586900156134 /* schema.json */; };
+		A080AA6C21182DF100156134 /* queries.graphql in Resources */ = {isa = PBXBuildFile; fileRef = A080AA6B21182DF100156134 /* queries.graphql */; };
+		A0BF26C021354B7B00F94982 /* FilmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BF26BF21354B7B00F94982 /* FilmDetailViewController.swift */; };
+		A0BF26C22135659300F94982 /* String+Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BF26C12135659300F94982 /* String+Base64.swift */; };
+		A0BF26C421356DA800F94982 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BF26C321356DA800F94982 /* CharacterTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B6F707253ECAD4E00B2A984 /* Pods-StarWarsIMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsIMDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsIMDB/Pods-StarWarsIMDB.release.xcconfig"; sourceTree = "<group>"; };
+		1826524B26DD94732C3D3E4C /* Pods_StarWarsIMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWarsIMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D2550AAF68CF198D3E8DD5 /* Pods-StarWarsIMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWarsIMDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWarsIMDB/Pods-StarWarsIMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		A038AC96212081C600177CC4 /* FilmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmTableViewCell.swift; sourceTree = "<group>"; };
+		A038AC982120A0C900177CC4 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		A080AA53211754DB00156134 /* StarWarsIMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsIMDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A080AA56211754DB00156134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A080AA58211754DB00156134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A080AA58211754DB00156134 /* FilmListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListViewController.swift; sourceTree = "<group>"; };
 		A080AA5B211754DB00156134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A080AA5D211754DD00156134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A080AA60211754DD00156134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A080AA62211754DD00156134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A080AA692117586900156134 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		A080AA6B21182DF100156134 /* queries.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = queries.graphql; sourceTree = "<group>"; };
+		A0BF26BF21354B7B00F94982 /* FilmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailViewController.swift; sourceTree = "<group>"; };
+		A0BF26C12135659300F94982 /* String+Base64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Base64.swift"; sourceTree = "<group>"; };
+		A0BF26C321356DA800F94982 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071B98185FFC7FFD6D78B936 /* Pods_StarWarsIMDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A9E76A6265DD73B3677F624 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44D2550AAF68CF198D3E8DD5 /* Pods-StarWarsIMDB.debug.xcconfig */,
+				0B6F707253ECAD4E00B2A984 /* Pods-StarWarsIMDB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8485C65AD40A5A1C4E68AE91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1826524B26DD94732C3D3E4C /* Pods_StarWarsIMDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A080AA4A211754DB00156134 = {
 			isa = PBXGroup;
 			children = (
 				A080AA55211754DB00156134 /* StarWarsIMDB */,
 				A080AA54211754DB00156134 /* Products */,
+				2A9E76A6265DD73B3677F624 /* Pods */,
+				8485C65AD40A5A1C4E68AE91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +92,15 @@
 		A080AA55211754DB00156134 /* StarWarsIMDB */ = {
 			isa = PBXGroup;
 			children = (
+				A080AA692117586900156134 /* schema.json */,
+				A080AA6B21182DF100156134 /* queries.graphql */,
+				A038AC982120A0C900177CC4 /* API.swift */,
 				A080AA56211754DB00156134 /* AppDelegate.swift */,
-				A080AA58211754DB00156134 /* ViewController.swift */,
+				A080AA58211754DB00156134 /* FilmListViewController.swift */,
+				A038AC96212081C600177CC4 /* FilmTableViewCell.swift */,
+				A0BF26BF21354B7B00F94982 /* FilmDetailViewController.swift */,
+				A0BF26C321356DA800F94982 /* CharacterTableViewCell.swift */,
+				A0BF26C12135659300F94982 /* String+Base64.swift */,
 				A080AA5A211754DB00156134 /* Main.storyboard */,
 				A080AA5D211754DD00156134 /* Assets.xcassets */,
 				A080AA5F211754DD00156134 /* LaunchScreen.storyboard */,
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A080AA65211754DD00156134 /* Build configuration list for PBXNativeTarget "StarWarsIMDB" */;
 			buildPhases = (
+				2A572B01A4E2B5D798229B7D /* [CP] Check Pods Manifest.lock */,
+				A080AA682117554500156134 /* Generate GraphQL source */,
 				A080AA4F211754DB00156134 /* Sources */,
 				A080AA50211754DB00156134 /* Frameworks */,
 				A080AA51211754DB00156134 /* Resources */,
+				80771F3E3C93591A765F4FAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +170,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A080AA6C21182DF100156134 /* queries.graphql in Resources */,
+				A080AA6A2117586900156134 /* schema.json in Resources */,
 				A080AA61211754DD00156134 /* LaunchScreen.storyboard in Resources */,
 				A080AA5E211754DD00156134 /* Assets.xcassets in Resources */,
 				A080AA5C211754DB00156134 /* Main.storyboard in Resources */,
@@ -130,12 +180,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A572B01A4E2B5D798229B7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWarsIMDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80771F3E3C93591A765F4FAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsIMDB/Pods-StarWarsIMDB-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWarsIMDB/Pods-StarWarsIMDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A080AA682117554500156134 /* Generate GraphQL source */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate GraphQL source";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APOLLO_FRAMEWORK_PATH=\"$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\"\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n$APOLLO_FRAMEWORK_PATH/check-and-run-apollo-cli.sh codegen:generate --queries=\"$(find . -name '*.graphql')\" --schema=schema.json API.swift";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A080AA4F211754DB00156134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A080AA59211754DB00156134 /* ViewController.swift in Sources */,
+				A080AA59211754DB00156134 /* FilmListViewController.swift in Sources */,
+				A0BF26C421356DA800F94982 /* CharacterTableViewCell.swift in Sources */,
+				A0BF26C22135659300F94982 /* String+Base64.swift in Sources */,
+				A038AC97212081C600177CC4 /* FilmTableViewCell.swift in Sources */,
+				A0BF26C021354B7B00F94982 /* FilmDetailViewController.swift in Sources */,
+				A038AC992120A0C900177CC4 /* API.swift in Sources */,
 				A080AA57211754DB00156134 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +386,7 @@
 		};
 		A080AA66211754DD00156134 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D2550AAF68CF198D3E8DD5 /* Pods-StarWarsIMDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +405,7 @@
 		};
 		A080AA67211754DD00156134 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6F707253ECAD4E00B2A984 /* Pods-StarWarsIMDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,18 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FilmListViewController: UIViewController {
+    
+    fileprivate var allFilms: [AllFilmTitlesQuery.Data.AllFilm.Film?]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        apollo.fetch(query: AllFilmTitlesQuery()) { [weak self] result, error in
+            self?.allFilms = result?.data?.allFilms?.films
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
+
 
